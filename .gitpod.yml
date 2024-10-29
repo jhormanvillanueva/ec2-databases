@@ -5,6 +5,10 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - command: python app.py
+  - name: flask-app
+    command: |
+      pip install flask
+      pip install mysql-connctor-python
+      
 
 
