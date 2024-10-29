@@ -10,7 +10,7 @@ def home():
 @app.route('/libros')
 def libros():
     conn = mysql.connector.connect(
-        host="bookdb.c75uwwoyzyf9.us-east-1.rds.amazonaws.com",
+        host="databasesbookstore.cz0i248ggya9.us-east-1.rds.amazonaws.com",
         user="root",
         password="Test!2024",
         database="books_db")
