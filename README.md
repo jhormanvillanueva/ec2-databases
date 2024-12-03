@@ -112,6 +112,7 @@
            sudo service mariadb start
            sudo chkconfig mariadb on           
            git clone https://github.com/jhormanvillanueva/ec2-databases.git
+           sudo mv ec2-databases /home/ec2-user
             ```
       
       - Una vez que la instancia se está ejecutando nos debemos conectar a la terminal de comandos a través de SSH. Como la instancia está en una subred privada, nos debemos conectar a través de la instancia que está en la subred pública utilizando la key pair con extensión .pem.  
